@@ -182,7 +182,7 @@ ul.social-links li a i {
 
 .overlay-gray:before {
   content: "";
-  background: #eeeeee;
+  background: #F1EEE9;
   position: absolute;
   top: 0;
   left: 0;
@@ -248,7 +248,7 @@ button:hover {
 .bg-banner-one {
   background: url(../images/background/banner2.jpg) fixed no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center 75px;
 }
 
 .bg-banner-two {
@@ -581,7 +581,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .main-nav {
-  background: #eeeeee;
+  background: #F1EEE9;
 }
 @media (max-width: 767px) {
   .main-nav {
@@ -720,7 +720,7 @@ select.form-control:not([size]):not([multiple]) {
   }
 }
 .page-title h3, .page-title li, .page-title a {
-  color: #eeeeee;
+  color: #F1EEE9;
 }
 .page-title .title {
   text-align: center;
@@ -779,7 +779,7 @@ select.form-control:not([size]):not([multiple]) {
   color: #159C8E;
 }
 .footer-main .footer1 a:hover {
-  color: #eeeeee;
+  color: #F1EEE9;
 }
 .footer-main .footer2 {
   text-align: right;
@@ -797,7 +797,7 @@ select.form-control:not([size]):not([multiple]) {
   color: #159C8E;
 }
 .footer-main .footer2 a:hover {
-  color: #eeeeee;
+  color: #F1EEE9;
 }
 
 .subfooter {
@@ -924,7 +924,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 .banner .block h1 {
   font-size: 45px;
-  color: #eeeeee;
+  color: #F1EEE9;
   padding: 10px 20px 10px 20px;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 15px;
@@ -934,20 +934,21 @@ select.form-control:not([size]):not([multiple]) {
 }
 .banner .block h2 {
   font-size: 35px;
-  color: #eeeeee;
+  color: #F1EEE9;
   padding: 5px 20px 5px 20px;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 15px;
   font-weight: 800;
 }
 .banner .block h5 {
-  font-size: 30px;
-  margin-top: 5px;
-  color: #eeeeee;
+  font-size: 16px;
+  text-align: center;
+  color: #F1EEE9;
   padding: 5px 20px 5px 20px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #159C8E;
   border-radius: 15px;
   font-weight: 800;
+  width: 60%;
 }
 .banner .block h3 {
   color: #159C8E;
@@ -955,16 +956,27 @@ select.form-control:not([size]):not([multiple]) {
   padding: 5px 20px 5px 20px;
   font-weight: 800;
   margin-bottom: 50px;
-  text-shadow: 3.5px 6.062px 2px rgba(0, 0, 0, 0.3);
+  text-shadow: 3.5px 6.062px 2px rgba(223, 219, 219, 0.698);
 }
 .banner .block h6 {
   font-size: 20px;
-  text-align: center;
-  color: #eeeeee;
+  \\text-align: center;
+  color: #F1EEE9;
   padding: 5px 20px 5px 20px;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 15px;
   font-weight: 800;
+}
+.banner .block img {
+  border-radius: 50%;
+  background-color: azure;
+  height: 50px;
+}
+.banner .block .img2 {
+  background-color: azure;
+}
+.banner .block .img2 img {
+  padding: 2px;
 }
 .banner .block h4 {
   text-align: center;
@@ -972,7 +984,7 @@ select.form-control:not([size]):not([multiple]) {
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 35px;
-  background-color: #eeeeee;
+  background-color: #F1EEE9;
   color: #159C8E;
   font-size: 25px;
   border-radius: 10px;
@@ -1073,11 +1085,11 @@ select.form-control:not([size]):not([multiple]) {
   position: relative;
 }
 .speakers.white .speaker-item {
-  background: #eeeeee;
+  background: #F1EEE9;
   border: 1px solid #e5e5e5;
 }
 .speakers .speaker-item {
-  background: #eeeeee;
+  background: #F1EEE9;
   padding: 7px;
   margin-bottom: 30px;
 }
@@ -1412,11 +1424,11 @@ select.form-control:not([size]):not([multiple]) {
 }
 .address-block h1 {
   padding: 20px 0px 10px 0px;
-  color: #eeeeee;
+  color: #F1EEE9;
   font-size: 40px;
 }
 .address-block h2 {
-  color: #eeeeee;
+  color: #F1EEE9;
   font-size: 20px;
   padding: 0px 10px 10px 10px;
 }
@@ -1649,11 +1661,11 @@ select.form-control:not([size]):not([multiple]) {
   position: relative;
 }
 .organiser.white .speaker-item {
-  background: #eeeeee;
+  background: #F1EEE9;
   border: 1px solid #e5e5e5;
 }
 .organiser .organiser-item {
-  background: #eeeeee;
+  background: #F1EEE9;
   padding: 7px;
   margin-bottom: 30px;
 }
@@ -1852,7 +1864,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 .schedule .schedule-contents .schedule-item li.chair {
   padding: 10px 40px;
-  background: #eeeeee;
+  background: #F1EEE9;
 }
 .schedule .schedule-contents .schedule-item li.chair img {
   height: 30px;
