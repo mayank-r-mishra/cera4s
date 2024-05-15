@@ -609,6 +609,7 @@ select.form-control:not([size]):not([multiple]) {
   font-size: 15px;
   padding: 15px 15px;
   border-radius: 10px;
+  width: 200px;
 }
 .btn-title-md2:hover {
   background: #fff;
@@ -2170,12 +2171,6 @@ select.form-control:not([size]):not([multiple]) {
   align-self: center;
   margin-top: -40px;
   margin-bottom: -60px;
-}
-.table1 .table1-contents a {
-  color: black;
-}
-.table1 .table1-contents a:hover {
-  color: #159C8E;
 }
 .table1 .table1-contents tr {
   border-bottom: 1px solid #000;
