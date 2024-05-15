@@ -517,6 +517,23 @@ select.form-control:not([size]):not([multiple]) {
   box-shadow: none;
 }
 
+.btn-main-md2 {
+  padding: 15px 15px;
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0.6666666667);
+  color: #fff;
+  outline: none;
+  font-size: 14px;
+}
+.btn-main-md2:hover {
+  background: #159C8E;
+  color: #fff;
+}
+.btn-main-md2:focus {
+  color: #fff;
+  box-shadow: none;
+}
+
 .btn-transparent-md {
   padding: 15px 40px;
   background: transparent;
@@ -560,6 +577,18 @@ select.form-control:not([size]):not([multiple]) {
   color: #1E59A9;
 }
 
+.btn-white-md2 {
+  background: #fff;
+  color: #222222;
+  padding: 15px 40px;
+  font-weight: 800px;
+  border-radius: 0;
+}
+.btn-white-md2:hover {
+  background: light;
+  color: #000000;
+}
+
 .btn-title-md {
   background: #159C8E;
   color: #fff;
@@ -571,6 +600,18 @@ select.form-control:not([size]):not([multiple]) {
 .btn-title-md:hover {
   background: #fff;
   color: #1E59A9;
+}
+
+.btn-title-md2 {
+  background: #159C8E;
+  color: rgba(0, 0, 0, 0.9764705882);
+  font-weight: 600;
+  font-size: 15px;
+  padding: 15px 40px;
+  border-radius: 10px;
+}
+.btn-title-md2:hover {
+  background: rgba(255, 255, 255, 0.7098039216);
 }
 
 .btn-rounded-icon {
