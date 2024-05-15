@@ -604,14 +604,15 @@ select.form-control:not([size]):not([multiple]) {
 
 .btn-title-md2 {
   background: #159C8E;
-  color: #ffffff;
+  color: #fef9f9;
   font-weight: 600;
   font-size: 15px;
-  padding: 15px 40px;
+  padding: 15px 15px;
   border-radius: 10px;
 }
 .btn-title-md2:hover {
-  background: rgba(255, 255, 255, 0.7098039216);
+  background: #fff;
+  color: #1E59A9;
 }
 
 .btn-rounded-icon {
