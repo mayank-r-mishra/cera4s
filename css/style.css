@@ -604,7 +604,7 @@ select.form-control:not([size]):not([multiple]) {
 
 .btn-title-md2 {
   background: #159C8E;
-  color: rgba(0, 0, 0, 0.9764705882);
+  color: #ffffff;
   font-weight: 600;
   font-size: 15px;
   padding: 15px 40px;
