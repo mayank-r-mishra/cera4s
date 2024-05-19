@@ -1251,27 +1251,19 @@ select.form-control:not([size]):not([multiple]) {
   color: #fff;
 }
 
-.organising_support h2 {
-  padding: 25px;
-  margin-bottom: -50px;
-  color: #fff;
-}
-.organising_support img {
-  width: 75px;
-}
-.organising_support .timer .syotimer-cell {
+.timer .syotimer-cell {
   margin-top: 50px;
   margin-right: 25px;
   margin-bottom: 33px;
   display: inline-block;
 }
 @media (max-width: 575px) {
-  .organising_support .timer .syotimer-cell {
+  .timer .syotimer-cell {
     margin-right: 10px;
     margin-bottom: 20px;
   }
 }
-.organising_support .timer .syotimer-cell .syotimer-cell__value {
+.timer .syotimer-cell .syotimer-cell__value {
   min-width: 80px;
   font-family: "Montserrat", sans-serif;
   font-size: 35px;
@@ -1288,18 +1280,18 @@ select.form-control:not([size]):not([multiple]) {
   box-shadow: 3.5px 6.062px 0px 0px rgba(0, 0, 0, 0.1);
 }
 @media (max-width: 575px) {
-  .organising_support .timer .syotimer-cell .syotimer-cell__value {
+  .timer .syotimer-cell .syotimer-cell__value {
     font-size: 30px;
   }
 }
 @media (max-width: 400px) {
-  .organising_support .timer .syotimer-cell .syotimer-cell__value {
+  .timer .syotimer-cell .syotimer-cell__value {
     min-width: 65px;
     line-height: 61px;
     font-size: 25px;
   }
 }
-.organising_support .timer .syotimer-cell .syotimer-cell__unit {
+.timer .syotimer-cell .syotimer-cell__unit {
   text-align: center;
   font-size: 1.1rem;
   font-weight: normal;
